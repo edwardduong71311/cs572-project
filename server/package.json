@@ -7,7 +7,7 @@
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
     "dev": "npx tsx watch src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint src"
+    "lint": "eslint src"
   },
   "author": "",
   "license": "ISC",

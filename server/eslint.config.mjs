@@ -7,7 +7,11 @@ export default [
   {
     files: ['src/**/*.{js,mjs,cjs,ts}'],
     rules: {
-      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        { argsIgnorePattern: '^_' },
+      ],
+      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       'no-undef': 'error',
     },
   },
