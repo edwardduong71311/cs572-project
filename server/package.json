@@ -11,18 +11,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint"
-    }
-  },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
-    "husky": "^9.1.7",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.0"
